@@ -1,12 +1,56 @@
 # Khortha Multi-Script Dataset
 
-A parallel corpus for the Khortha language, mapping **Devanagari** and **Roman** scripts.
+An open-source parallel corpus for the **Khortha language**, featuring mappings between **Devanagari** and **Roman** scripts, with future support for **Anshul Lipi**.
 
-## Project Structure
-- `data/`: Contains the parallel CSV files.
-- `scripts/`: Python scripts for transliteration and data cleaning.
-- `docs/`: Spelling conventions and grammar rules.
+## 📖 Overview
+Khortha is a primary language spoken in the Jharkhand region of India. This project aims to create a high-quality, standardized dataset to support Natural Language Processing (NLP) tasks such as machine translation, transliteration, and speech recognition for this low-resource language.
 
-## Goals
-1. Build a high-quality Khortha dataset for NLP.
-2. Expand to include **Anshul Lipi**.
+## 📂 Project Structure
+- `data/`: Contains the master dataset in CSV format (`khortha_parallel.csv`).
+- `scripts/`: Automation tools for script conversion and data cleaning.
+- `docs/`: Linguistic guidelines, grammar rules, and script mapping logic.
+- `assets/`: Reference materials, including fonts for Anshul Lipi and PDFs.
+
+## 🛠️ Tech Stack
+- **Data:** CSV / JSON
+- **Automation:** Python (Pandas, Indic-Transliteration)
+- **Version Control:** Git & GitHub
+
+## 🚀 Getting Started
+### 1. Clone the repository
+```bash
+git clone [https://github.com/sadhyarshi/Khortha-dataset.git](https://github.com/sadhyarshi/Khortha-dataset.git)
+cd Khortha-dataset
+
+Set up the environment
+python -m venv venv
+.\venv\Scripts\Activate
+pip install -r requirements.txt
+
+Run Transliteration
+python scripts/generate_roman.py
+
+⚖️ License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🤝 Contributing
+Contributions are welcome! If you are a native speaker or a linguist:
+
+Fork the repo.
+
+Add Khortha sentences in Devanagari to data/khortha_parallel.csv.
+
+Submit a Pull Request.
+
+
+---
+
+### Next Steps to sync with GitHub:
+
+1.  **Save the file** in your editor.
+2.  **Commit and Push:**
+    ```powershell
+    git add README.md
+    git commit -m "Updated README with professional documentation and instructions"
+    git push origin main
+    ```
