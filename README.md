@@ -44,13 +44,3 @@ Submit a Pull Request.
 
 
 ---
-
-### Next Steps to sync with GitHub:
-
-1.  **Save the file** in your editor.
-2.  **Commit and Push:**
-    ```powershell
-    git add README.md
-    git commit -m "Updated README with professional documentation and instructions"
-    git push origin main
-    ```
