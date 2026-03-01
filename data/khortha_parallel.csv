@@ -1,2 +1,16 @@
-id,devanagari,roman,dialect,category
-1,खोरठा भाषा खूब सुइन हइ,Khortha bhasha khub suin hai,Hazaribaghiya,Statement
+ID,Devanagari,Roman (Target),Category,Meaning (For Reference)
+1,जोहार।,Johar.,Greeting,Greetings / Hello.
+2,तोय कइसां आंहे?,Toy kaisan aahe?,Question,How are you?
+3,हम ठीक हियै।,Ham thik hiyai.,Statement,I am fine.
+4,तोर नाम की हउ?,Tor naam ki hau?,Question,What is your name?
+5,हमर नाम सधर्षी लागे।,Hamar naam Sadhyarshi laage.,Statement,My name is Sadhyarshi.
+6,तोय कखनी अइमें?,Toy kakhni aaimai?,Question,When will you come?
+7,ई घरटा खूब सुंदर हे।,Ee gharta khub sundar he.,Statement,This house is very beautiful.
+8,हम खोरठा बाजल हियै।,Ham Khortha baajal hiyai.,Statement,I am speaking Khortha.
+9,तोय कहां जाहें?,Toy kahan jaahen?,Question,Where are you going?
+10,एकटा कलम आन।,Ekta kalam aan.,Imperative,Bring a pen.
+11,ऊ सेब खा रहल हे।,Oo sev kha rahal he.,Statement,He is eating an apple.
+12,तोय की कर रहल हें?,Toy ki kar rahal hen?,Question,What are you doing?
+13,आज खूब रउद हे।,Aaj khub raud he.,Statement,It is very sunny today.
+14,हमनी भात खइबै।,Hamni bhaat khaibai.,Statement,We will eat rice.
+15,तोहें हमर संगे चलम हें?,Tohen hamar sange chalam hen?,Question,Will you come with me?
